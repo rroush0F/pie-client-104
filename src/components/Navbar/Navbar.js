@@ -9,7 +9,7 @@ const Navbar = (props) => {
         <div>
             <nav>
                 <img id="piePic" alt="pie" src={piePic} />
-                <Logout />
+                <Logout clearLocalStorage={props.clearLocalStorage} />
             </nav>
         </div>
     )
